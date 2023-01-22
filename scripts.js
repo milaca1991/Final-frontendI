@@ -34,7 +34,7 @@ window.onload = function() {
   let canvas = document.getElementById("canvas");
   let context = canvas.getContext("2d");
 
-  context.beginPath();
+ context.beginPath();
   context.rect(50, 50, 50, 50);
   context.lineWidth = 3;
   context.strokeStyle ="gray ";
@@ -42,13 +42,15 @@ window.onload = function() {
   context.fill()
   context.stroke();
 
-
-  context.beginPath(); /*para poner varios elementos*/
+/*para poner varios elementos*/
+  context.beginPath(); 
   context.arc(150, 75, 25, 0, 2* Math.PI);
   context.stroke();  
   context.fillStyle="blue";
   context.fill();   
 
-
+  context.font = "100% Arial";
+  context.fillText("My first game", 100, 20); 
+ 
 
 };
