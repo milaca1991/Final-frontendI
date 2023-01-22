@@ -1,0 +1,19 @@
+canvas {
+    width: 50%;
+
+    border: 1px solid black;
+} 
+
+body {
+    background-color:#c3c3c3;
+ }
+ 
+ h1 {
+    color: #4c6ebb;
+ }
+
+#canvas{
+    height:600; 
+    width:400;
+ }
+
